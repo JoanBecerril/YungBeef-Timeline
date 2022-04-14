@@ -1,0 +1,99 @@
+/* Principal */
+
+html {
+    margin: 0;
+    font-family: "OPTILency";
+    src: url(https://webfonts.ffonts.net/OPTILency.font) format("truetype");
+}
+
+body {
+    --opacidad-negro: 0.5;
+    background-image: linear-gradient(rgba(0, 0, 0, var(--opacidad-negro)), rgba(0, 0, 0, var(--opacidad-negro))), url(img/OG/OG\ COP.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: fixed;
+}
+
+.tituloalbum {
+    color: white;
+    font-size: 650%;
+    text-align: center;
+}
+
+.coverimg {
+    width: 50%;
+    margin-left: 15%;
+    box-shadow: 0 0 30px #FFFFFF;
+}
+
+.canciones {
+    color: white;
+    text-align: right;
+    word-spacing: ;
+}
+
+
+/* Otras clases */
+
+
+/* Diseño de columnas */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column-1 {
+    width: 100%;
+    float: left;
+}
+
+.column-2 {
+    width: 50%;
+    float: left;
+}
+
+.column-3 {
+    width: 33.33%;
+    float: left;
+}
+
+.column-4 {
+    width: 25%;
+    float: left;
+}
+
+.column-5 {
+    width: 20%;
+    float: left;
+}
+
+.column-6 {
+    width: 16.66%;
+    float: left;
+}
+
+.column-75 {
+    width: 75%;
+    float: left;
+}
+
+
+/* Responsive */
+
+@media only screen and (max-width: 600px) {
+    /* column-2 pasará de tener 50% a 100% */
+    .column-2 {
+        width: 50%;
+    }
+    /* column-3 pasará de tener 33.33% a 100% */
+    .column-3 {
+        width: 50%;
+    }
+    /* column-4 pasará de tener 25% a 50% */
+    .column-4 {
+        width: 50%;
+    }
+}
