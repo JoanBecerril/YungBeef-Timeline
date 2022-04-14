@@ -2,17 +2,53 @@
 
 html {
     margin: 0;
+    padding: 0;
+    border-width: 0;
     font-family: "OPTILency";
     src: url(https://webfonts.ffonts.net/OPTILency.font) format("truetype");
 }
 
 body {
-    --opacidad-negro: 0.5;
-    background-image: linear-gradient(rgba(0, 0, 0, var(--opacidad-negro)), rgba(0, 0, 0, var(--opacidad-negro))), url(img/OG/OG\ COP.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: top;
-    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    border-width: 0;
+}
+
+
+/* Otras clases */
+
+.centro {
+    text-align: center;
+}
+
+#nada {
+    margin: 0;
+    padding: 0;
+    border-width: 0;
+}
+
+#franjaroja {
+    margin: 0;
+    padding: 0;
+    border-width: 0;
+}
+
+#franjarojaabajo {
+    margin: 0;
+    padding: 0;
+    border-width: 0;
+    position: absolute;
+    bottom: 0;
+}
+
+#tituloindex {
+    color: white;
+    text-align: center;
+    font-size: 700%;
+}
+
+#botonindex {
+    margin-left: 50%;
 }
 
 .tituloalbum {
@@ -30,11 +66,7 @@ body {
 .canciones {
     color: white;
     text-align: right;
-    word-spacing: ;
 }
-
-
-/* Otras clases */
 
 
 /* Diseño de columnas */
