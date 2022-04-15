@@ -140,11 +140,11 @@ body {
 @media only screen and (max-width: 600px) {
     /* column-2 pasará de tener 50% a 100% */
     .column-2 {
-        width: 50%;
+        width: 100%;
     }
     /* column-3 pasará de tener 33.33% a 100% */
     .column-3 {
-        width: 50%;
+        width: 100%;
     }
     /* column-4 pasará de tener 25% a 50% */
     .column-4 {
@@ -154,5 +154,13 @@ body {
         color: white;
         text-align: center;
         font-size: 300%;
+    }
+    .tituloalbum {
+        color: white;
+        font-size: 300%;
+        text-align: center;
+    }
+    .coverimg {
+        margin-left: %;
     }
 }
