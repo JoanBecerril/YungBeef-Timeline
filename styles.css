@@ -75,7 +75,7 @@ body {
 
 .tituloalbum {
     color: white;
-    font-size: 650%;
+    font-size: 550%;
     text-align: center;
 }
 
@@ -89,6 +89,17 @@ body {
     color: white;
     text-align: right;
     line-height: 15px;
+}
+
+.botonsiguiente {
+    width: 130px;
+    height: 50px;
+    border-radius: 40px;
+    border-color: red;
+    border-width: 3px;
+    color: white;
+    background-color: black;
+    font-size: large;
 }
 
 
