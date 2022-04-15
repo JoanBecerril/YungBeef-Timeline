@@ -1,11 +1,11 @@
 /* Principal */
 
+@import url('https://fonts.googleapis.com/css2?family=Spectral:wght@300&display=swap');
 html {
     margin: 0;
     padding: 0;
     border-width: 0;
-    font-family: "OPTILency";
-    src: url(https://webfonts.ffonts.net/OPTILency.font) format("truetype");
+    font-family: 'Spectral', serif;
 }
 
 body {
@@ -88,6 +88,7 @@ body {
 .canciones {
     color: white;
     text-align: right;
+    line-height: 15px;
 }
 
 
@@ -161,6 +162,6 @@ body {
         text-align: center;
     }
     .coverimg {
-        margin-left: %;
+        margin-left: 25%;
     }
 }
