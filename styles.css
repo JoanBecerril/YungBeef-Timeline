@@ -18,13 +18,26 @@ body {
 /* Otras clases */
 
 .centro {
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-#nada {
+.nada {
     margin: 0;
     padding: 0;
     border-width: 0;
+}
+
+.nadabajo {
+    list-style-type: none;
+    margin: 0 auto;
+    padding-left: 30%;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 #franjaroja {
@@ -34,11 +47,13 @@ body {
 }
 
 #franjarojaabajo {
-    margin: 0;
-    padding: 0;
-    border-width: 0;
-    position: absolute;
+    list-style-type: none;
+    margin: 0 auto;
+    padding-left: 30%;
+    overflow: hidden;
+    position: fixed;
     bottom: 0;
+    width: 100%;
 }
 
 #tituloindex {
@@ -48,7 +63,14 @@ body {
 }
 
 #botonindex {
-    margin-left: 50%;
+    width: 250px;
+    height: 70px;
+    border-radius: 70px;
+    border-color: red;
+    border-width: 5px;
+    color: white;
+    background-color: black;
+    font-size: xx-large;
 }
 
 .tituloalbum {
@@ -127,5 +149,10 @@ body {
     /* column-4 pasará de tener 25% a 50% */
     .column-4 {
         width: 50%;
+    }
+    #tituloindex {
+        color: white;
+        text-align: center;
+        font-size: 300%;
     }
 }
