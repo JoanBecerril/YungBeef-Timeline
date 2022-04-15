@@ -91,6 +91,11 @@ body {
     line-height: 15px;
 }
 
+.canciones a {
+    text-decoration: none;
+    color: white;
+}
+
 .botonsiguiente {
     width: 130px;
     height: 50px;
