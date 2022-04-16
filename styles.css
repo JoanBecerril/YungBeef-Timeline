@@ -182,5 +182,10 @@ body {
     }
     .canciones {
         text-align: center;
+        line-height: 12px;
+    }
+    .canciones a {
+        text-align: center;
+        line-height: 12px;
     }
 }
