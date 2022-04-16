@@ -41,9 +41,13 @@ body {
 }
 
 #franjaroja {
-    margin: 0;
-    padding: 0;
-    border-width: 0;
+    list-style-type: none;
+    margin: 0 auto;
+    padding-left: 30%;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 #franjarojaabajo {
